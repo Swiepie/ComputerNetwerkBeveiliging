@@ -6,8 +6,6 @@ ciphertext = bytes.fromhex(ciphertext_hex)
 namespace = "IOTDEV"
 found = False
 
-print("Searching for key variants...")
-
 # test 100 opties
 for i in range(100):
     suffix = f"{i:02d}"
