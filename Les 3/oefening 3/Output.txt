@@ -1,0 +1,2 @@
+Received b'\n=================================\n MARS RELAY AUTHENTICATION\n=================================\n\nAuthentication codes are generated\nfrom hashed orbital telemetry.\n\nPredict the next authentication code\nbefore it is transmitted.\n\nCodes are hexadecimal.\n\n'
+Received b'\nCURRENT CODE: f6029a528c0aa8ccab25c8a413d9e4d649ab75a7f0b2c4011ac5305f6da7fbda\n'
