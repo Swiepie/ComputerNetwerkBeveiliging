@@ -29,7 +29,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     print("Ciphertext lengte:", len(ciphertext))
 
     # 3. Bekend plaintext-sjabloon, op basis van format.json
-    known_plaintext = b'{"from":"alice","to":"bob","amount": "100"}'
+    known_plaintext = b'{"from":"alice","to":"bobby","amount": "100"}'
     print("Plaintext lengte:", len(known_plaintext))
     assert len(known_plaintext) == len(ciphertext), \
         f"Lengte komt niet overeen: {len(known_plaintext)} vs {len(ciphertext)}"

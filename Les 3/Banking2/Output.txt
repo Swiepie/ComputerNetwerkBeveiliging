@@ -1,0 +1,23 @@
+Received ========================================
+ SECUREBANK PAYMENT RECONCILIATION API
+             STAGING SYSTEM
+========================================
+Legacy audit fingerprints match payments
+across internal reporting systems.
+
+Find two different valid payments that share
+the same audit fingerprint.
+
+Fingerprint: truncated SHA-256
+Input: one JSON payment per line
+
+Required fields:
+reference, from_account, to_account,
+amount, currency, timestamp
+
+Payment 1:
+
+[!] COLLISION CONFIRMED
+Two different payments share an audit fingerprint.
+Legacy audit integrity check failed.
+Flag: cns{legacy_reconciliation_collision}
