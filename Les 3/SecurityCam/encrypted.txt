@@ -1,0 +1,1 @@
+[…] Authorization: Digest username="user", realm="PythonRTSP", nonce="4874a055c3f4390506d99e6c51a9e3e360cbef8a62abd7079e11faddcb70a38c", uri="rtsp://cns-test.idlab.uantwerpen.be:50002/video", response="b3539154c5b784bba2c47a1a6c7c4ab0",
