@@ -1,2 +1,19 @@
+Received b'\n=================================\n MARS RELAY AUTHENTICATION\n=================================\n
+Authentication codes are generated
+from hashed orbital telemetry.
+Predict the next authentication code
+before it is transmitted.
+Codes are hexadecimal
+
+Received
+CURRENT CODE: f6029a528c0aa8ccab25c8a413d9e4d649ab75a7f0b2c4011ac5305f6da7fbda
+
+
 Received b'\n=================================\n MARS RELAY AUTHENTICATION\n=================================\n\nAuthentication codes are generated\nfrom hashed orbital telemetry.\n\nPredict the next authentication code\nbefore it is transmitted.\n\nCodes are hexadecimal.\n\n'
-Received b'\nCURRENT CODE: f6029a528c0aa8ccab25c8a413d9e4d649ab75a7f0b2c4011ac5305f6da7fbda\n'
+Received b'\nCURRENT CODE: dfe630d5d806c5ebe84a6d88ced26919a0dfbd04dd09ba985dbc22889fb8d63d\n'
+Received b'\nCURRENT CODE: 52f7e9e5217f65101cee1dad49328039cef8e5d32908a7658baee05272167de7\n'
+
+
+
+Received b'\nCURRENT CODE: b705314447fa6ccd602ca96f6c1ef20f20efe245a676e8855734f1c8fe7ed65c\n'
+Received b'\nCURRENT CODE: 38d58dded91d74ce2c2cb9d4a6eb3ad79fba26549728757c949d6ac4cedeb608\n'
