@@ -64,3 +64,13 @@ Dit moet elke keer opnieuw na het openen van een nieuwe terminal (stap 4 herhale
 
 bash
 deactivate
+
+
+
+
+
+
+
+
+
+https://gchq.github.io/CyberChef/#recipe=Encode_text('UTF-8%20(65001)'/disabled)Decode_text('UTF-8%20(65001)')&input=c2ZnZ2hkZmdoZGZnaGRmZ2g
