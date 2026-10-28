@@ -49,6 +49,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     print("Te versturen (hex):", forged_hex)
 
     # 7. Versturen naar de server
-    s.sendall(forged_hex.encode() + b'\n')
+    s.sendall(forged_hex.encode() +  b'\n')
     response = s.recv(4096)
     print("Server antwoord:", response.decode())

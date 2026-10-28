@@ -1,0 +1,25 @@
+/Users/siebe/PycharmProjects/ComputerNetwerkBeveiliging/.venv/bin/python /Users/siebe/PycharmProjects/ComputerNetwerkBeveiliging/Les 4/SignedSealed/ttest.py
+message: {"action": "view", "role": "user"}
+sig    : 817e86132b480782043d61602c1843100dc8002186502619e802913d918a0f69
+[original                                ] 403: {"message":"Access denied"}
+
+[compact                                 ] 403: {"message":"Access denied"}
+
+[sorted-keys                             ] 403: {"message":"Access denied"}
+
+[role=admin                              ] 403: {"error":"Invalid signature"}
+
+[extra is_admin                          ] 403: {"error":"Invalid signature"}
+
+[action=admin                            ] 403: {"error":"Invalid signature"}
+
+[dup role last=admin                     ] 403: {"error":"Invalid signature"}
+
+[dup role first=admin                    ] 200: {"flag":"cns{canonicalization_is_critical}"}
+
+
+*** SUCCESS ***
+ {"flag":"cns{canonicalization_is_critical}"}
+
+
+Process finished with exit code 0
