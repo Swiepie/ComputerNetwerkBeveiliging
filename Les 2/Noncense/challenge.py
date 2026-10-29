@@ -1,5 +1,5 @@
-from Crypto.Cipher import AES
-from Crypto.Util import Counter
+from Cryptodome.Cipher import AES
+from Cryptodome.Util import Counter
 
 def encrypt(key, nonce, msg):
     ctr = Counter.new(64, prefix=nonce)
