@@ -1,0 +1,4 @@
+Reverse stap per stap de dingen, je kan ook bepaalde lijntjes uit zetten en de rest al reversen, je moet niet perse alles in 1 keer doen.
+
+De Xor in de ROR hadj e re buiten kunnen halen en dan daarna reverse engineeren, ipv die er gwoon in te laten staan.
+Maar de vraag is in welke volgorde zet je ze dan in de ROR?

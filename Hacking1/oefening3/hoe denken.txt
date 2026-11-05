@@ -1,0 +1,19 @@
+word
+excel code
+
+XOR dan EMPLOYEE ID gepad bmet allemaal 0en en dan kun je de rest van de code reversen.
+je krijgt dan bepaaklde leesbare letters te zien.
+
+for p in range 100
+
+pt : 0 * p + employeeID
+en dit doe je ook met UniversityDEpertment
+
+flagb known b en pt xoren zoals opgave 1
+
+EmployeeID,UniversityDepartment,Quarterlybudget,status,Project
+
+dat moet je dan aanvullen, maar die kOmmas weet je niet je kan ook ; of : of / proberen,
+het is een beetje dingen prpberen voor je het antwoord kunt vinden.
+Als dit niet werkt kun je het een per een doen, dus elk woord apart is xorren en dan
+Kun je zo alles achter elkaar plakken.
