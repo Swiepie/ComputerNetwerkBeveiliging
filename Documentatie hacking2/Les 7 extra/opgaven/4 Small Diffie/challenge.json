@@ -1,0 +1,8 @@
+{
+    "p": 862072759907,
+    "g": 2,
+    "Y_alice": 673751560125,
+    "Y_bob": 568756253858,
+    "encrypted_flag": "1b36d40b49b8188bbc6cc659172170e9053483d173c8dca98a",
+    "flag_encryption": "flag XOR keystream, keystream = sha256(f'{K}:0') || sha256(f'{K}:1') || ..., K = gedeelde DH-sleutel"
+}

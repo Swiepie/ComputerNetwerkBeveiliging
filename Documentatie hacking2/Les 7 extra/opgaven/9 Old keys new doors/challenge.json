@@ -1,0 +1,7 @@
+{
+    "uitleg": "Een KDC-sessie tussen alice (A) en B is afgelopen. Je hebt de sessiesleutel Ks_old (ooit gelekt) en de ticket uit stap 3 opgevangen. Doe je als A voor aan B (server.py) zonder KDC.",
+    "Ks_old": "181b7ebe6a2312eb7c132e326de9dc9b",
+    "recorded_ticket_step3": "48f29ff85ec843567253fc26e5d0bd7695128e683de404c747719839f954ac68923adbaa174c4fe4dfdb",
+    "encryption": "E(K, m) = m XOR keystream, keystream = sha256(f'{K}:0') || sha256(f'{K}:1') || ... (hex-uitvoer)",
+    "protocol": "(3) A->B: E(Kb,[Ks||IDA])   (4) B->A: E(Ks,N2)   (5) A->B: E(Ks, f(N2)) met f(N)=N+1"
+}
