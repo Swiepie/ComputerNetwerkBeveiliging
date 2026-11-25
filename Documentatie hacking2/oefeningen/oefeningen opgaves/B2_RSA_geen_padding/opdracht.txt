@@ -1,0 +1,9 @@
+OEFENING B2 (NIEUW) - RSA met kleine e en zonder padding
+===========================================================
+
+challenge.json bevat n, e en c, met een ongewoon kleine e. Er werd geen
+padding toegepast op het bericht.
+
+Opdracht: ontcijfer c. Je hebt hier geen private key, geen Hastad
+broadcast (er is maar één ciphertext/ontvanger) nodig... wat kan je dan
+wel proberen?

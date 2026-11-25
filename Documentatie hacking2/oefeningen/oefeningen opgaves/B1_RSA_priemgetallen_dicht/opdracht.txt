@@ -1,0 +1,10 @@
+OEFENING B1 (NIEUW) - RSA met p en q te dicht bij elkaar
+===========================================================
+
+challenge.json bevat enkel n, e en c (één enkel bericht, geen blokken).
+De sleutelgenerator heeft hier een IMPLEMENTATIEFOUT gemaakt: p en q
+liggen zeer dicht bij elkaar.
+
+Opdracht: ontcijfer c. (Hint: gewone Pollard's rho factorisatie zal hier
+ook werken, maar is niet de snelste/elegantste aanpak - welke truc kan
+je gebruiken omdat p en q dicht bij elkaar liggen?)

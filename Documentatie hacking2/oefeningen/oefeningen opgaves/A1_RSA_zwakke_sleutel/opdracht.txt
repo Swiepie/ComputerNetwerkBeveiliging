@@ -1,0 +1,8 @@
+OEFENING A1 - RSA met een zwakke sleutel
+==========================================
+(stijl: zoals "Shifting sand", Les 5)
+
+Je hebt enkel challenge.json gekregen: een RSA publieke sleutel (n, e)
+en een versleuteld bericht (opgedeeld in blokken).
+
+Opdracht: ontcijfer het bericht. Kijk eerst naar de grootte van n...

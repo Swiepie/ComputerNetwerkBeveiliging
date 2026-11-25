@@ -1,0 +1,9 @@
+OEFENING A3 - ElGamal nonce hergebruik
+=========================================
+(stijl: zoals "Assymetric nonsense", Les 5)
+
+challenge-4.json bevat de publieke ElGamal-parameters, een bekend
+bericht met zijn ciphertext, en een geheim "flag"-bericht met zijn
+ciphertext.
+
+Opdracht: vind de inhoud van het geheime bericht (cipher_flag) terug.

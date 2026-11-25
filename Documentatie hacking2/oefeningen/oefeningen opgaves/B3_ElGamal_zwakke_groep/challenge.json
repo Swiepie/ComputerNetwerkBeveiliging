@@ -1,0 +1,1 @@
+{"p": 220492046321, "g": 6, "y": 180946332061, "encrypted_flag": "1a92657d997a68278e5565cf2b39fa9263d5a6a91ce5e12441e149", "flag_encryption": "flag XOR keystream, keystream = sha256(f'{x}:0') || sha256(f'{x}:1') || ..., x = private key"}

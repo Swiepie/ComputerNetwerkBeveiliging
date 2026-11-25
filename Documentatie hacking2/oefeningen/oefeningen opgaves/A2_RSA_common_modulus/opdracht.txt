@@ -1,0 +1,9 @@
+OEFENING A2 - RSA common modulus
+===================================
+(stijl: zoals "Free keys", Les 5)
+
+Hetzelfde bericht werd tweemaal versleuteld met dezelfde modulus n,
+maar met twee verschillende publieke exponenten e1 en e2 (zie
+challenge.json).
+
+Opdracht: vind het originele bericht terug, zonder p, q of d te kennen.

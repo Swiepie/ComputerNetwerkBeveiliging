@@ -1,0 +1,8 @@
+OEFENING A4 - DSA nonce hergebruik
+=====================================
+(stijl: zoals "Double entry", Les 6)
+
+dsa1_challenge.json bevat DSA-publieke parameters, twee ondertekende
+berichten, en een met de private key versleutelde vlag.
+
+Opdracht: vind de private key x terug en ontcijfer de vlag.

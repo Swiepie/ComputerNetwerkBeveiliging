@@ -1,0 +1,10 @@
+OEFENING B3 (NIEUW) - ElGamal met een te zwakke groep
+========================================================
+
+challenge.json bevat ElGamal-publieke parameters (p, g, y) die VEEL te
+klein gekozen zijn voor een echt veilig systeem, en een versleutelde
+vlag (XOR met een keystream afgeleid van de private key x).
+
+Opdracht: vind de private key x rechtstreeks terug uit p, g en y
+(zonder nonce-hergebruik of andere implementatiefouten nodig te hebben),
+en ontcijfer daarmee de vlag.
