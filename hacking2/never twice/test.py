@@ -1,0 +1,1 @@
+grote_k = pow(y, k, q)

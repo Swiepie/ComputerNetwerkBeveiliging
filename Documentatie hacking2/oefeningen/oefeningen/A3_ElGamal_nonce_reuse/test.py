@@ -19,6 +19,8 @@ c1_flag, c2_flag = data["cipher_flag"]
 # --------------------------------------------------
 # Stap 1: verschil tussen de nonces zoeken
 # c1_flag / c1_known = g^(k2 - k1), met d = k2 - k1 klein
+
+cns{a_shared_score}
 # --------------------------------------------------
 ratio = (c1_flag * pow(c1_known, -1, p)) % p
 d, cur = None, 1
